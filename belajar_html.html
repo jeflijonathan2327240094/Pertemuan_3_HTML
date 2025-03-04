@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML Table</title>
+</head>
+
+<body>
+    <h4> belajar table di html</h4>
+    <table border="1">
+        <tr align="center">
+            <th>No</th>
+            <th>Nama</th>
+            <th>Negara</th>
+            <th>No Punggung</th>
+        </tr>
+        <tr align="center">
+            <td>1</td>
+            <td>Ricardo Kaka</td>
+            <td>Brazil</td>
+            <td>8</td>
+        </tr>
+        <tr align="center">
+            <td>2</td>
+            <td>Andriy Shevchenko</td>
+            <td>Ukraine</td>
+            <td>7</td>
+        </tr>
+        <tr align="center">
+            <td>3</td>
+            <td>Ronaldo Nazario</td>
+            <td>Brazil</td>
+            <td>8</td>
+        </tr>
+        <tr align="center">
+            <td>4</td>
+            <td>Marco Van Basten</td>
+            <td>Netherland</td>
+            <td>9</td>
+        </tr>
+        <tr align="center">
+            <td>5</td>
+            <td>Bambang Pamungkas</td>
+            <td>Indonesia</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <h4>Belajar Merge Cell</h4>
+    
+    <table border="1">
+        <tr>
+            <td>&nbsp; &nbsp;  &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td colspan="2">&nbsp;  &nbsp; &nbsp;</td>
+             <td>&nbsp; &nbsp;  &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+        </tr>
+           <tr>
+            <td>&nbsp; &nbsp;  &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+               <td>&nbsp; &nbsp;  &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+        </tr>
+           <tr>
+            <td>&nbsp; &nbsp;  &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+             <td>&nbsp; &nbsp;  &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td colspan="2">&nbsp;  &nbsp; &nbsp;</td>
+            <!-- <td>&nbsp;  &nbsp; &nbsp;</td> -->
+        </tr>
+           <tr>
+            <td>&nbsp; &nbsp;  &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+             <td>&nbsp; &nbsp;  &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+        </tr>
+        </tr>
+           <tr>
+            <td>&nbsp; &nbsp;  &nbsp;</td>
+            <td colspan="3">&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+        </tr>
+        </tr>
+        <tr>
+            <td >&nbsp; &nbsp;  &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp; &nbsp;  &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+        </tr>
+        </tr>
+           <tr>
+            <td rowspan="2">&nbsp; &nbsp;  &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+             <td>&nbsp; &nbsp;  &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+        </tr>
+        </tr>
+           <tr>
+          
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp; &nbsp;  &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+            <td>&nbsp;  &nbsp; &nbsp;</td>
+        </tr>
+    </table>
+</body>
+</html>
+<script>
+    var spasi = "";
+    function handleSpasi (jumlah) {   
+        for(let i = 1; i <= jumlah; i++) {
+            spasi += "&nbsp"
+        }
+        return spasi;
+    }
+   
+</script>
